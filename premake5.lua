@@ -11,8 +11,6 @@ project "ImGui"
     "*.cpp",
   }
 
-  defines { "IMGUI_API=__declspec(dllexport)" }
-
   filter "system:windows"
     systemversion "latest"
     staticruntime "on"
